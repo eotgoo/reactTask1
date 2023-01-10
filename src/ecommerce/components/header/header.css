@@ -1,0 +1,13 @@
+.topMain {
+  max-width: 100vw;
+  margin-top: 30px !important;
+  color: #292d32;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.topText {
+  display: flex;
+  gap: 50px;
+  margin-right: 0;
+}

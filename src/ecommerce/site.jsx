@@ -1,11 +1,15 @@
-import Top from "./components/top"
+import Content from "./components/content";
+import Header from "./components/header";
+import Footer from "./components/footer";
 
 const Site = () => {
-    return (
-        <>
-        <Top></Top>
-        </>
-    )
-}
+  return (
+    <div>
+      <Header></Header>
+      <Content></Content>
+      <Footer></Footer>
+    </div>
+  );
+};
 
-export default Site
+export default Site;

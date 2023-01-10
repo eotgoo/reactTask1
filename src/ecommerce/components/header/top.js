@@ -1,5 +1,7 @@
-import { icons } from "react-icons";
-import { topData } from "../data/data";
+import "./header.css";
+import { BsGeoAlt } from "react-icons/bs";
+import { topData } from "../../data/data";
+
 const Top = () => {
   return (
     <div className="topMain row">
@@ -8,9 +10,11 @@ const Top = () => {
       </div>
       <div className="topText col-4">
         {topData.map((x, index) => (
-          <p key={index}>{x}</p>
+          <div key={index}>
+            <BsGeoAlt></BsGeoAlt>
+            {x}
+          </div>
         ))}
-        ;
       </div>
     </div>
   );

@@ -1,6 +1,4 @@
-.topMain {
-    margin-left: 50px;
-    color: #292D32;
-    font-size: 14px;
-    font-weight: 400;
+.App {
+  max-width: 1200px !important;
+  margin: auto;
 }

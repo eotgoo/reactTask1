@@ -1,5 +1,6 @@
-import './App.css';
-import Site from './ecommerce/site';
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Site from "./ecommerce/site";
 
 function App() {
   return (
