@@ -9,5 +9,8 @@
 .topText {
   display: flex;
   gap: 50px;
-  margin-right: 0;
+}
+
+.navLogo {
+  width: 100px !important;
 }
